@@ -1,0 +1,16 @@
+.pink-highlight {
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.pink-highlight.large {
+    font-size: 24px;
+}
+#title {
+    color: blue;
+    font-size: 36px;
+}
+#green-highlight {
+    background-color: lightgreen;
+    font-size: 24;
+    font-weight: bold;
+}
