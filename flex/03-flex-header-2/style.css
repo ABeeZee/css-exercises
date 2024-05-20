@@ -9,9 +9,20 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 15px
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -20,6 +31,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -44,5 +56,9 @@ a {
 }
 
 ul {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  gap: 10px;
   list-style-type: none;
 }
